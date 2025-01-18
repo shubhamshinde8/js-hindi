@@ -29,3 +29,5 @@ console.log(url.replace('56','8746'));
 
 const ans=url.includes('shubham');
 console.log(ans);
+
+

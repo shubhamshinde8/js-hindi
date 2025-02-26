@@ -1,22 +1,36 @@
-/*
-   Datatypes in javascript 
-*/
 
-console.log("DataTypes In JavaScript");
-let name="shubham";
-let age=21;
-let password=8098978675;
-let result=false;
+console.log("DateTypes in javascript..");
 
-console.log(name,age,password,result)
+// undefined
+// Number
+// BigInt
+// null
+// String
+// Object
+// Boolean
+// Date
 
-/*
-  number
-  bigint
-  String
-  boolean
-  null
-  undefined  
-  symbol
-  object
-*/
+
+let s="Shubham shinde ";
+console.log(typeof s);
+
+let a=90;
+console.log(typeof a);
+
+let isPassed=true;
+console.log(typeof isPassed);
+
+const student={
+  name:"soham shinde",
+  email:"soham@gmail.com",
+  rollNo:23,
+  address:"sillod"
+}
+
+console.log(student.name);
+console.log(student.email);
+console.log(student.rollNo);
+console.log(student.address);
+
+console.log(typeof student);
+

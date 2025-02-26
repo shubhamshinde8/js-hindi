@@ -11,7 +11,7 @@ console.log("DateTypes in javascript..");
 // Date
 
 
-let s="Shubham shinde ";
+let s="Shubham shinde";
 console.log(typeof s);
 
 let a=90;

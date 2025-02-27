@@ -23,36 +23,6 @@ console.log(arr);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // const college={
 
 //     student: {
@@ -69,13 +39,6 @@ console.log(arr);
 // }
 
 // console.log(college);
-
-
-
-
-
-
-
 
 
 

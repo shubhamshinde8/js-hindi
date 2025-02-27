@@ -1,4 +1,46 @@
-// console.log("Arrays in javascript ");
+console.log("Arrays in javascript ");
+
+
+
+
+// array can take any element inside an array 
+
+
+const arr=[1,2,3,[4,5,6],[6,7,8],[8,9]];
+
+console.log(arr);
+
+const myrealArr=arr.flat(Infinity);
+
+console.log(myrealArr);
+
+
+console.log(Array.from("shubham"));
+
+
+
+
+// const favActor=['akshay kumar','salman khan','amir khan','jaydip alhvat'];
+// const favActerss=['tabbu','karina','sai pallvi','katrina'];
+
+// // console.log(favActerss);
+// // console.log(favActor);
+
+// const favActors=favActerss.concat(favActor);
+// console.log(favActors);
+
+
+// console.log(...favActerss);
+// console.log(...favActor);
+
+
+// console.log(favActerss);
+// console.log(favActor);
+
+
+
+
+
 
 // const arr=[1,2,3,4,5,6];
 // console.log(arr);
@@ -28,14 +70,14 @@
 // console.log(a.sort());
 
 
-const a=[1,2,3,4,5,6];
+// const a=[1,2,3,4,5,6];
 
-// console.log(a.includes(4));
+// // console.log(a.includes(4));
 
-console.log(typeof a);
-console.log(typeof a.join());
+// console.log(typeof a);
+// console.log(typeof a.join());
 
-console.log(a);
+// console.log(a);
 
 
 

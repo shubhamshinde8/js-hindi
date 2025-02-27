@@ -1,14 +1,14 @@
-// console.log("String in javascript ");
+console.log("String in javascript ");
 
-// const name="shubhamshinde8";
-// let count=26;
+const name="shubhamshinde8";
+let count=26;
 
-// console.log(`username : ${name} \nrepositories : ${count}`);
+console.log(`username : ${name} \nrepositories : ${count}`);
 
-// const game=new String('shubham shinde ');
-// for(let i=0;i<game.length;i++){
-//     console.log(game[i]);
-// }
+const game=new String('shubham shinde ');
+for(let i=0;i<game.length;i++){
+    console.log(game[i]);
+}
 
 const s="vaishAli susundre";
 console.log(s.length);
@@ -21,3 +21,4 @@ console.log(s.charAt(2));
 console.log(s.concat(" with shubham shinde "));
 console.log(s.endsWith('t'));
 console.log(s);
+

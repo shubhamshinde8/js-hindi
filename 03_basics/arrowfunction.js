@@ -1,18 +1,29 @@
 console.log("Arrow function..");
 
-// const chai= () => {
-//     let userName="hitesh";
-//     console.log(this.userName);
+(
+    function chai(name){
+        console.log(`chai bohot achhi hai ${name}`);
+    }
+)("uday");
 
-// }
 
 
-// shubham=(name="sam")=>{
-//     console.log(`hello ${name}`);
-// }
 
-// shubham();
-// chai();
+
+
+const chai= () => {
+    let userName="hitesh";
+    console.log(this.userName);
+
+}
+
+
+shubham=(name="sam")=>{
+    console.log(`hello ${name}`);
+}
+
+shubham();
+chai();
 
 
 
@@ -52,28 +63,28 @@ console.log(status());
 
 
 
-// function chai(){
-//     let userName="hitesh";
-//     console.log(userName);
-//     console.log(this);
-// }
+function chai(){
+    let userName="hitesh";
+    console.log(userName);
+    console.log(this);
+}
 
-// chai();
-
-
+chai();
 
 
 
-// const user={
-//     userName:"hitesh",
-//     price:999,
 
-//     welcomeMsg: function(){
-//         console.log(`${this.userName} , welcome to website `);
-//         console.log(this);
-//     }
+
+const user={
+    userName:"hitesh",
+    price:999,
+
+    welcomeMsg: function(){
+        console.log(`${this.userName} , welcome to website `);
+        console.log(this);
+    }
     
-// }
+}
 
-// // user.welcomeMsg();
-// console.log(this);
+// user.welcomeMsg();
+console.log(this);

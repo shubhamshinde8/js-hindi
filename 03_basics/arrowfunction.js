@@ -11,7 +11,7 @@ console.log("Arrow function..");
 
 
 
-const chai= () => {
+chai= () => {
     let userName="hitesh";
     console.log(this.userName);
 
